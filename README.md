@@ -39,10 +39,9 @@ The form may not work correctly on the presence of duplicated ```id``` attribute
 
 Make sure your form fields are not using the same ```id``` attribute as any other HTML element in the document. 
 
-
 ## Example
 
-Check a live example Here.
+Download the repository and check the example folder to see the form in action.
 
 ## License
 
