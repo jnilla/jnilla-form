@@ -1,0 +1,64 @@
+body {
+	padding: 25px;
+	background-color: #fff;
+}
+
+.jnilla-form {
+	display: none !important;
+}
+
+.jnilla-form-item {
+	margin-bottom: 20px;
+}
+
+.jnilla-form-edit.jnilla-form-container {
+	outline: dotted 2px #777;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+.jnilla-form-edit .jnilla-form-item {
+	outline: dotted 2px #777;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+.jnilla-form-edit .jnilla-form-item:hover {
+	outline: dashed 2px #777;
+}
+
+.jnilla-form-item input[type="text"], .jnilla-form-item textarea,
+	.jnilla-form-item select {
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 30px;
+}
+
+.jnilla-form-item-text {
+	padding: 4px 0px;
+	margin: 0;
+}
+
+.jnilla-form-options {
+	background-color: #ddd;
+	padding: 5px;
+	border: 2px solid #ccc;
+	border-top: none;
+	border-radius: 10px;
+}
+
+.jnilla-form-options input[type="text"], .jnilla-form-options textarea,
+	.jnilla-form-options select {
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 30px;
+	margin-bottom: 5px;
+}
+
+.jnilla-form-options.jnilla-form-form-options {
+	margin-top: 0;
+}
+
+.jnilla-form-item input[type=radio] {
+	margin: 0;
+}
