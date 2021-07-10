@@ -4,7 +4,7 @@ body {
 }
 
 .jnilla-form {
-	display: none !important;
+	background: lightYellow;
 }
 
 .jnilla-form-item {
