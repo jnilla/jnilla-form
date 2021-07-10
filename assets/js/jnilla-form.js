@@ -219,6 +219,7 @@
 					items = items.split("\n");
 					for(var item in items){
 						item = items[item];
+						if(typeof item !== 'object') continue;
 						var jqOption = $('<option></option>');
 						jqOption
 							.html(item)
@@ -650,10 +651,12 @@
 
 				// If form data is invalid sets default form data
 				if(!formData) formData = {};
+				console.log(formData);
 
 				// Create form items
 				for(var itemIndex in formData.items){
 					var formItemData = formData.items[itemIndex];
+					if(typeof formItemData !== 'object') continue;
 					jqNewFormItem = formItemTypes[formItemData.type].create();
 					// Store form item data
 					jqNewFormItem.data('formItemData', formItemData);
